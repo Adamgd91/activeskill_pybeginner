@@ -28,3 +28,20 @@ elif month in [6, 7, 8]:
     print("Summer")
 else:
     print("Fall")
+    
+price = 45.99
+budget = 50
+
+if price <= budget:
+    print("Can afford")
+else:
+    print("Too expensive")
+    
+age = 25
+has_license = True
+has_car = True
+
+if age and has_license and has_car:
+    print("Can drive")
+else:
+    print("Can't drive")
