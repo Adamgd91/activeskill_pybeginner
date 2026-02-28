@@ -45,3 +45,10 @@ if age and has_license and has_car:
     print("Can drive")
 else:
     print("Can't drive")
+    
+for number in range(1, 6):
+    print(number ** 2)
+    
+for i in range(1,11):
+    number = 7 * i
+    print(number)
