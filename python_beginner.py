@@ -73,6 +73,8 @@ fav_movies = ["LOTR", "Matrix", "Avengers"]
 for i in range(1, len(fav_movies) + 1):
     print(f"{i}. {fav_movies[i - 1]}")
     
+print("-----------")
+    
 favorite_movies = ["Inception", "The Matrix", "Interstellar", "The Shawshank Redemption", "Pulp Fiction"]
 for index, movie in enumerate(favorite_movies, start=1):
     print(f"{index}. {movie}")
