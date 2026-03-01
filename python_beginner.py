@@ -78,3 +78,15 @@ print("-----------")
 favorite_movies = ["Inception", "The Matrix", "Interstellar", "The Shawshank Redemption", "Pulp Fiction"]
 for index, movie in enumerate(favorite_movies, start=1):
     print(f"{index}. {movie}")
+
+print("-----------")
+
+string_to_check = "programming"
+vowel_count = 0
+vowels = "aeiou"
+
+for character in string_to_check:
+    if character in vowels:
+        vowel_count += 1
+
+print(f'There are {vowel_count} vowels in the word, {string_to_check}')
