@@ -10,3 +10,14 @@ for i in split_csv:
         testing_csv.append(i)
 
 print(testing_csv)
+
+print("---------------")
+
+fname = " bill"
+print(fname.strip())
+
+learn = "####fod "
+print(learn.strip("#"))
+
+
+print('adam' in name)
