@@ -18,6 +18,7 @@ print(fname.strip())
 
 learn = "####fod "
 print(learn.strip("#"))
+print(learn.find("fod"))
 
 
 print('adam' in name)
